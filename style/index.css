@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;;
+    font-style: italic;
+    font-size: large;
+}
+header{
+    background-image: url(/img/todos-los-star-guardian-2022_3840x2160_xtrafondos.com.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+nav{
+    max-width: 900px;
+	margin: auto;
+	margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    margin-left: 700px;
+}
+.menu-horizontal{
+    gap: 90px;
+    margin-top: -25px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-image: url(/img/todos-los-star-guardian-2022_1920x1080_10338.webp);
+}
+.menu-vertical{
+    position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+    border-radius: 50px;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-image: url(/img/Diseño\ sin\ título\ \(3\).png);
+    border-radius: 50px;
+}
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: large;
+}
+.container{
+    height: 800px;
+}
+#Personajes{
+    background-image: url(/img/todos-los-star-guardian-2022_1920x1080_10338.webp);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 50px;
+}
+p{
+    padding: 50px;
+    border-radius: 60px;
+    background-color: #ffffff;
+    color: pink;
+    text-align: justify;
+    width: 200px;
+    height: 360px;
+}
+section{
+   background-image: url(https://www.riotgames.com/darkroom/1000/1f9c3a260cb6e7a4da054ecbcdfa1c05:8c1fc2c1679e87a750e255368f14254c/sg22-franchise-kv-final.jpg);
+  display: flex;
+  width: 600px;
+  height: 430px;
+  border-radius: 40px;
+}
+section img{
+  border-radius: 40px;
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .130;
+  transition: .5s ease;
+}
+section img:hover{
+  cursor: cell;
+  width: 150px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+video{
+    border-radius: 280px;
+}
+#Principios{
+    background-image: url(https://images6.alphacoders.com/739/thumb-1920-739116.png);
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 50px;
+}
+.ix{
+    border-radius: 30px;
+}
